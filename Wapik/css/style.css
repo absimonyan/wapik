@@ -218,6 +218,10 @@
         margin-bottom: 21px;
     }
     
+    .header-content_btn {
+        margin: 20px 0px;
+    }
+    
     #header-content a {
         background-color: #72a73e;
         padding: 20px 40px;

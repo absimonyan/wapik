@@ -8,6 +8,7 @@
     <title>Home | Wapik</title>
     <!-- Styles -->
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="./js/font-awesome.js "></script>
 
 
@@ -52,9 +53,12 @@
 
             <div class="horizontal-hr"></div>
             <div id="header-content">
-                <h1>Welcome to Wapik</h1>
-                <p>Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</p>
-                <a href="#">Learn More</a>
+                <h1 data-aos="fade-down" data-aos-duration="1200">Welcome to Wapik</h1>
+                <p data-aos="fade-down" data-aos-duration="1000">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</p>
+                <div class="header-content_btn" data-aos="fade-down" data-aos-duration="800">
+                    <a href="#">Learn More</a>
+
+                </div>
             </div>
         </div>
     </header>
@@ -63,9 +67,9 @@
         <div class="container">
 
             <div class="section-heading">
-                <h2 class="section-title">Best of our features</h2>
-                <hr class="section-hr">
-                <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                <h2 data-aos="fade-down" data-aos-duration="2000" class="section-title">Best of our features</h2>
+                <hr data-aos="fade-down" data-aos-duration="1500" class="section-hr">
+                <p data-aos="fade-down" data-aos-duration="1000" class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
             </div>
 
             <div class="featured-main">
@@ -136,9 +140,9 @@
         <div class="information-item">
             <div class="container">
                 <div class="section-heading">
-                    <h2 class="section-title">Looking for the perfect template to use?</h2>
-                    <hr class="section-hr">
-                    <p class="section-subtitle">Donec id elit non mi porta gravida at eget metus.</p>
+                    <h2 data-aos="fade-down" data-aos-duration="2000" class="section-title">Looking for the perfect template to use?</h2>
+                    <hr data-aos="fade-down" data-aos-duration="1500" class="section-hr">
+                    <p data-aos="fade-down" data-aos-duration="1000" class="section-subtitle">Donec id elit non mi porta gravida at eget metus.</p>
                 </div>
                 <div class="information-item-inner">
                     <div class="information-item_image">
@@ -199,9 +203,9 @@
     <section id="pricing">
         <div class="container">
             <div class="section-heading">
-                <h2 class="section-title">Pricing & Plan</h2>
-                <hr class="section-hr">
-                <p class="section-subtitle">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Donec id elit non mi porta gravida at eget metus.</p>
+                <h2 data-aos="fade-down" data-aos-duration="2000" class="section-title">Pricing & Plan</h2>
+                <hr data-aos="fade-down" data-aos-duration="1500" class="section-hr">
+                <p data-aos="fade-down" data-aos-duration="1000" class="section-subtitle">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. Donec id elit non mi porta gravida at eget metus.</p>
             </div>
         </div>
         <div class="pricing-main">
@@ -365,7 +369,10 @@
     <!-- Js -->
 
     <script src="./js/script.js " type="text/javascript"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

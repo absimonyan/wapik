@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-Us | Wapik</title>
     <!-- Styles -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact.css">
 
@@ -62,9 +64,9 @@
     <section id="contact">
         <div class="container">
             <div class="section-heading">
-                <h2 class="section-title">Get In Touch With Us</h2>
-                <hr class="section-hr">
-                <p class="section-subtitle">We are here to help. Want to learn more about our services? Please get in touch, we'd love to hear from you!</p>
+                <h2 class="section-title" data-aos="fade-down" data-aos-duration="1500">Get In Touch With Us</h2>
+                <hr class="section-hr" data-aos="fade-down" data-aos-duration="1250">
+                <p class="section-subtitle" data-aos="fade-down" data-aos-duration="1000">We are here to help. Want to learn more about our services? Please get in touch, we'd love to hear from you!</p>
             </div>
             <div class="contact-inner">
 
@@ -232,7 +234,10 @@
     <a class="scroll-top" id="scrollbtn"><i class="far fa-arrow-up"></i></a>
 
     <script src="./js/script.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
