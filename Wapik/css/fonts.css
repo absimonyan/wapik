@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto-regular-webfont.woff");
+}
+
+@font-face {
+    font-family: "Monsterat";
+    src: url("../fonts/montserrat-regular-webfont.woff");
+}
+
+@font-face {
+    font-family: "Monsterat Bold";
+    src: url("../fonts/montserrat-bold-webfont.woff");
+}

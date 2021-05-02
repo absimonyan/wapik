@@ -1,0 +1,65 @@
+header {
+    background-image: none;
+    background-color: #eef1ec;
+}
+
+.nav-right *,
+#nav-phone,
+#nav-phone i {
+    color: #83a7a5;
+    opacity: 1;
+}
+
+#nav-logo,
+#nav-hamburger {
+    color: #0f5f5c;
+}
+
+.nav-active {
+    color: #5b8381;
+}
+
+.nav-button {
+    color: white;
+}
+
+.horizontal-hr {
+    background-color: #b8ccc8;
+}
+
+
+/* Pricing */
+
+.pricing-main-block {
+    background-color: #fff;
+    color: #5b8381;
+}
+
+.pricing-main-block_price {
+    color: #0f5f5c;
+    animation: price 1s infinite linear;
+}
+
+@keyframes price {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.section-title {
+    color: #0f5f5c;
+    font-weight: 400;
+}
+
+.section-bottom {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
